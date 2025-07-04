@@ -7,11 +7,11 @@
   A curated collection of wordlists for ethical and authorised penetration tests - practical, precise and well-organised.
 </p>
 
-<!-- <p align="center">
+<p align="center">
   <a href="//hub.docker.com/r/Ercaino/WordLists_papers"><img src="https://img.shields.io/docker/v/Ercaino/WordLists_papers/arch-latest?logo=docker"></a>
   <a href="//hub.docker.com/r/Ercaino/WordLists_papers"><img src="https://img.shields.io/docker/v/Ercaino/WordLists_papers/debian-latest?logo=docker"></a>
   <a href="//hub.docker.com/r/Ercaino/WordLists_papers"><img src="https://img.shields.io/docker/v/Ercaino/WordLists_papers/windows-latest?logo=docker"></a>
-</p> -->
+</p>
 
 <p align="center">
   <a href="//github.com/Ercaino/WordLists_papers"><img src="https://img.shields.io/badge/License-MIT-blue.svg"></a>
@@ -40,15 +40,20 @@ The objective of this project is to provide a centralised reference point for co
 
 ## 📁 Repository Structure
 <p float="left">
-  <p align="left">
+  <p align="center">
     <a href="./STRUCTURE.txt"><img src="https://img.shields.io/badge/Structure-_?style=for-the-badge&color=8bd5ca"></a>
-    <a href="./assets/documentation/TreeUpdate.md"><img src="https://img.shields.io/badge/Update.str-_?style=for-the-badge&color=91d7e3"></a>
-  </p>
-  <p align="right">
-    <!-- ![Structure](https://github.com/Ercaino/UNI-GradeManager/actions/workflows/update_structure.yml/badge.svg) -->
-    <img src="https://github.com/Ercaino/WordLists_papers/actions/workflows/update_structure.yml/badge.svg" /> 
   </p>
 </p>
+
+## 🐳 Docker Images
+
+There are three Docker tags available for the [`Ercaino/wordlists_papers`](https://hub.docker.com/r/Ercaino/wordlists_papers) Docker repository:
+
+- [`arch-latest`](https://hub.docker.com/r/Ercaino/wordlists_papers/tags?name=arch-latest)
+- [`debian-latest`](https://hub.docker.com/r/Ercaino/wordlists_papers/tags?name=debian-latest)
+- [`windows-latest`](https://hub.docker.com/r/Ercaino/wordlists_papers/tags?name=windows-latest)
+
+These will have a `/wordlists` folder with all the wordlists in there for you to use them.
 
 ## ⚠️ Disclaimer
 
