@@ -1,6 +1,29 @@
 src/
-├── 2_digits.txt
-└── test
-    └── 3_digits.txt
+├── BruteFiles
+│   ├── 2_digits.txt
+│   ├── 3_digits.txt
+│   ├── 4_digits.txt
+│   └── gitignore.txt
+└── languages
+    ├── arabic.txt
+    ├── croatian.txt
+    ├── czech.txt
+    ├── danish.txt
+    ├── dutch.txt
+    ├── english.txt
+    ├── french.txt
+    ├── georgian.txt
+    ├── german.txt
+    ├── hebrew.txt
+    ├── italian.txt
+    ├── norwegian.txt
+    ├── polish.txt
+    ├── portuguese.txt
+    ├── russian.txt
+    ├── serbian.txt
+    ├── spanish.txt
+    ├── swedish.txt
+    ├── turkish.txt
+    └── ukrainian.txt
 
-2 directories, 2 files
+3 directories, 24 files
