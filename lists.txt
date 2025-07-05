@@ -1,0 +1,6 @@
+src/
+├── 2_digits.txt
+└── test
+    └── 3_digits.txt
+
+2 directories, 2 files
