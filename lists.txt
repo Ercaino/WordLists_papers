@@ -4,7 +4,7 @@ src/
 │   ├── 3_digits.txt
 │   ├── 4_digits.txt
 │   └── gitignore.txt
-└── languages
+└── Languages
     ├── arabic.txt
     ├── croatian.txt
     ├── czech.txt
