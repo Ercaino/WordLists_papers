@@ -1,12 +1,12 @@
 #!/bin/bash
 # --- Checking whether the user is root
+
 check_root() {
     if [[ $EUID -ne 0 ]]; then
         echo "⚠️  Please run this script with sudo."
         exit 1
     fi
 }
-
 
 # --- Determine the Linux distribution
 detect_distro() {
