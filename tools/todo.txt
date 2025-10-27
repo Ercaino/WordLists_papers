@@ -1,0 +1,31 @@
+## Install for windows in powershell. 
+
+- controllo che windows 
+- compatibile con win 10 e win 11 
+
+-seguire quella di linux per la maggior parte 
+
+
+
+## Install linux 
+
+- controllo amministratore 
+- controllo che distribuzione usa l'utente
+- distribuzioni compatibili Arch Debian Kali Fedora Ubunto e Mint
+
+- controllo presenza dei pacchetti necessari (tipo git)
+- installazione pacchetti necessari
+
+- se gia presenti dei file wordlist, rimuovere e pulire 
+
+- clono la repository nella directory 
+
+- se presente configurazione zsh 
+- se non presente chiedere di installarlo o meno 
+
+
+
+## Unistall linux
+
+- semplice disinstallazione e quindi rimozione di wordlist (non i pacchetti come git)
+
