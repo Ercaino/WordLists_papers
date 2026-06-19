@@ -1,0 +1,31 @@
+# Workflow for update list_of_wordlist.txt 
+name: Update structure
+on:
+  push:
+    branches: [ "main" ]
+  workflow_dispatch:
+  # schedule:
+  #   - cron: '0 0 * * *'
+
+jobs:
+  update-lists:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install tree
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y tree
+
+      - name: Generate structure tree
+        run: |
+          tree src/ --sort=name > list_of_wordlist.txt
+
+      - name: Commit changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update project structure"
+          file_pattern: list_of_wordlist.txt
