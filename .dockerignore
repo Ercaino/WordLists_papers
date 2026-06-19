@@ -1,8 +1,19 @@
+# --- Version control ---
 .git/
-.github/
-tools/
 .gitattributes
-Dockerfile*
+.gitignore
+
+# --- CI / workflows ---
+.github/
+
+# --- Documentation ---
 README.md
-lists.md
 install.md
+installation.md
+
+# --- Local scripts ---
+tools/
+
+# --- Build artifacts ---
+Dockerfile*
+lists.txt
