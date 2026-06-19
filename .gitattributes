@@ -1,17 +1,17 @@
-# Excluded from GitHub Linguist
+# :: Excluded from GitHub Linguist
 data/* linguist-vendored
 
-# Treat all files as text automatically
+# :: Treat all files as text automatically
 * text=auto
 
-# Use LF (Unix-style) in text files on all systems
+# :: Use LF (Unix-style) in text files on all systems
 *.txt text eol=lf
 *.csv text eol=lf
 *.json text eol=lf
 *.xml text eol=lf
 *.yml text eol=lf
 
-# Binary files: keep unchanged
+# :: Binary files: keep unchanged
 *.zip binary
 *.7z binary
 *.rar binary
@@ -21,14 +21,15 @@ data/* linguist-vendored
 *.jpeg binary
 *.gif binary
 
-# Ignore diff for very large files (add more names if needed)
+# :: Ignore diff for very large files (add more names if needed)
 *large* -diff
 *big* -diff
 rockyou.txt -diff
 passwords.txt -diff
 
+# :: Enable better diffs for Markdown files (word-level & headers)
 *.md diff=markdown
 
-# Hide text files from GitHub Linguist (optional)
+# :: Hide text files from GitHub Linguist (optional)
 *.txt linguist-detectable=false
 *.csv linguist-detectable=false
