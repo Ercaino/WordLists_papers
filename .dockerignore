@@ -16,4 +16,4 @@ tools/
 
 # --- Build artifacts ---
 Dockerfile*
-lists.txt
+list_of_wordlist.txt
