@@ -1,8 +1,16 @@
+# :: OS files
 .DS_Store
 Thumbs.db
+Desktop.ini
+.Directory
 
-.idea/
+# :: Editor / IDE
 .vscode/
+*.swp
+*.swo
+*~
+*.orig
 
+# :: Build / temp
 cache/
 build/
