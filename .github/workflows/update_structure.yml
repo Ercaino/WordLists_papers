@@ -22,7 +22,7 @@ jobs:
 
       - name: Generate structure tree
         run: |
-          tree src/ > list_of_wordlist.txt
+          tree data/ > list_of_wordlist.txt
 
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v5
