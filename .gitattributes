@@ -1,5 +1,5 @@
 # Excluded from GitHub Linguist
-src/* linguist-vendored
+data/* linguist-vendored
 
 # Treat all files as text automatically
 * text=auto
