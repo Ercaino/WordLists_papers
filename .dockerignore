@@ -12,7 +12,7 @@ install.md
 installation.md
 
 # --- Local scripts ---
-tools/
+src/
 
 # --- Build artifacts ---
 Dockerfile*

@@ -46,6 +46,11 @@ jobs:
         run: |
           & "C:\Program Files\Docker\Docker\DockerCli.exe" -SwitchDaemon
 
+      - name: Set version
+        shell: pwsh
+        run: |
+          (Get-Content src/install.ps1) -replace '#{replaceme}', '${{ github.ref_name }}' | Set-Content src/install.ps1
+
       - name: Build and push
         uses: docker/build-push-action@v6
         with:
