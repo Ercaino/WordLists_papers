@@ -8,12 +8,11 @@
 
 # --- Documentation ---
 README.md
-install.md
-installation.md
+docs/
 
 # --- Local scripts ---
 src/
 
 # --- Build artifacts ---
 Dockerfile*
-list_of_wordlist.txt
+
