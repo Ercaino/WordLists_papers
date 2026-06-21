@@ -22,10 +22,10 @@ jobs:
 
       - name: Generate structure tree
         run: |
-          tree data/ > list_of_wordlist.txt
+          tree data/ > docs/list_of_wordlist.txt
 
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore: update project structure"
-          file_pattern: list_of_wordlist.txt
+          file_pattern: docs/list_of_wordlist.txt
