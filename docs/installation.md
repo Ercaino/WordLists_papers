@@ -40,9 +40,9 @@ sudo gh repo clone Ercaino/WordLists_papers  /usr/share/wordlists
 **⚙️ Script installer**
 > **Supported distros:** Arch Linux, BlackArch, Debian, Linux Mint, Fedora
 ```bash
-sudo ./tools/install.sh
+sudo ./src/install.sh
 ```
-> 💡 To uninstall: `sudo ./tools/install.sh --uninstall`
+> 💡 To uninstall: `sudo ./src/install.sh --uninstall`
 
 ---
 
@@ -60,9 +60,9 @@ gh repo clone Ercaino/WordLists_papers  C:\Wordlists
 
 **⚙️ Script installer** (PowerShell as Administrator)
 ```powershell
-.\tools\install.ps1
+.\src\install.ps1
 ```
-> 💡 To uninstall: `.\tools\install.ps1 -Uninstall`
+> 💡 To uninstall: `.\src\install.ps1 -Uninstall`
 
 **📥 irm — PowerShell remote download**
 ```powershell

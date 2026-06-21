@@ -45,9 +45,9 @@ root@kali:~# wordlists -h
 
 Wordlists can be accessed like this:
 ```sh
-  /usr/share/wordlists/src/Languages/filename.txt
-  /usr/share/wordlists/src/BruteFiles/filename.txt
-  /usr/share/wordlists/src/Passwords/filename.txt
+  /usr/share/wordlists/data/Languages/filename.txt
+  /usr/share/wordlists/data/BruteFiles/filename.txt
+  /usr/share/wordlists/data/Passwords/filename.txt
 ```
 
 #### Aggiungi un Alias in .zshrc
@@ -85,7 +85,7 @@ You can use this command to display the list of directories
 
 You can install tree (if you don't have it): `sudo pacman -S tree`
 
-run: `sudo ./tools/wordlists.sh`
+run: `sudo ./src/view_wordlist.sh`
 
 example:
 ```bash
